@@ -1,0 +1,150 @@
+# Omnoss
+
+> Software für Kampfsportschulen: Mitglieder, Beiträge, Verträge, Kursplan und Matte in einem System. Im Echtbetrieb seit April 2026 an 6 Standorten mit rund 3.000 Mitgliedern (Stand 13.10.2026).
+
+Anbieter: Omnoss GmbH, Bergkirchen. Kontakt: info@omnoss.de.
+Status je Funktion: Live = verfügbar, In Entwicklung = in Arbeit, Geplant = auf der Roadmap. Feste Angaben mit Stichtag stehen unter Fakten.
+
+## Fakten und Fragen
+
+- [Fakten](https://omnoss.de/fakten.html): Omnoss in Zahlen und Tatsachen: Unternehmen, Produkt, Betrieb, Technik, Zahlungen, Datenschutz und Preismodell, jeweils mit Stichtag und Quelle.
+- [FAQ](https://omnoss.de/faq.html): Fragen, die Gym-Owner zu Omnoss stellen: Preis, SEPA-Lastschrift, Wechsel und Parallelbetrieb, Mattencockpit, Technik-Planer, App, Familien, Daten.
+
+## Funktionen und Roadmap
+
+- [Alle Funktionen](https://omnoss.de/funktionen.html): Der vollständige Funktionsindex von Omnoss nach Bereichen: was live ist, was in Entwicklung ist und was geplant ist.
+- [Roadmap](https://omnoss.de/roadmap.html): Was in Omnoss live ist, was in Entwicklung ist und was geplant ist – öffentlich und aus derselben Quelle wie der Funktionsindex.
+
+## Produkt
+
+- [Produkt](https://omnoss.de/produkt/): Omnoss ist ein Datenmodell mit sechs Oberflächen: Owner-Bereich, Matte, Mitglieder-App, Technik-Planer, Finanzen & Verträge und Leads.
+- [Finanzen & Verträge](https://omnoss.de/produkt/finanzen.html): SEPA-Lastschrift mit eigener Gläubiger-ID, Verträge mit digitaler Unterschrift, Mahnwesen und Kontoauszug-Import – direkt im Gym.
+- [Leads](https://omnoss.de/produkt/leads.html): Anfragen von Website und Probetraining als Lead, Pipeline bis zum Vertrag und Auswertung je Kanal – ohne Zettel, in einem System.
+- [Matte](https://omnoss.de/produkt/matte.html): Mattencockpit auf dem Tablet, Trainer-App in der Tasche: Anmeldungen, Check-in, Gürtel und Probetrainings für jeden Kurs aus denselben Daten.
+- [Mitglieder-App](https://omnoss.de/produkt/mitglieder-app.html): Kurse buchen, Gürtel, Streak und Techniken sehen: die Mitglieder-App von Omnoss macht das Gym zur täglichen Gewohnheit.
+- [Owner-Bereich](https://omnoss.de/produkt/owner.html): Stammquote je Kurs, At-Risk-Radar und alle Daten je Mitglied an einer Stelle: der Owner-Bereich zeigt, was im Gym gerade passiert.
+- [Technik-Planer](https://omnoss.de/produkt/technik-planer.html): Technik-Vorschläge für den nächsten Kurs aus Anmeldungen und Wünschen der Mitglieder. Der Trainer übernimmt, ergänzt oder verwirft.
+
+## Für wen
+
+- [Für wen](https://omnoss.de/fuer/): Omnoss ist für Kampfsportschulen gebaut, in denen Technik zählt: BJJ, MMA, Kickboxen, Muay Thai und Boxen.
+- [BJJ](https://omnoss.de/fuer/bjj.html): Für Brazilian Jiu-Jitsu: Gürtel und Streifen am Mitglied, Gi und No-Gi im Curriculum, Familienkonten für Kids – in einem System.
+- [Kickboxen, Muay Thai & Boxen](https://omnoss.de/fuer/kickboxen-muay-thai.html): Für Kickbox-, Muay-Thai- und Boxschulen: Kursplan mit Warteliste, QR-Check-in am Eingang und At-Risk-Radar für alle, die wegbleiben.
+- [MMA](https://omnoss.de/fuer/mma.html): Für MMA-Schulen: Disziplin am Mitglied, ein Check-in für alle Kurse, vom Probetraining bis zum Vertrag in einem System.
+
+## Preise
+
+- [Preise](https://omnoss.de/preise.html): Omnoss kostet pro Mitglied und Monat: Basic, Premium oder All-in, mit Mindestbetrag je Standort und Mengenrabatt ab 200 Mitgliedern.
+
+## Vergleich
+
+- [Vergleich](https://omnoss.de/vergleich/): Zehn Kriterien für Software in Kampfsportschulen und ein Vergleich von Omnoss mit zehn Anbietern – mit Quelle und Datum, ohne Wertung.
+- [Eversports Manager](https://omnoss.de/vergleich/eversports.html): Omnoss und Eversports Manager nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
+- [FightDesk](https://omnoss.de/vergleich/fightdesk.html): Omnoss und FightDesk nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
+- [Gymdesk](https://omnoss.de/vergleich/gymdesk.html): Omnoss und Gymdesk nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
+- [Kicksite](https://omnoss.de/vergleich/kicksite.html): Omnoss und Kicksite nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
+- [Magicline](https://omnoss.de/vergleich/magicline.html): Omnoss und Magicline nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
+- [MATOOL](https://omnoss.de/vergleich/matool.html): Omnoss und MATOOL nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
+- [Octiv](https://omnoss.de/vergleich/octiv.html): Omnoss und Octiv nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
+- [Omoplata](https://omnoss.de/vergleich/omoplata.html): Omnoss und Omoplata nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
+- [Virtuagym](https://omnoss.de/vergleich/virtuagym.html): Omnoss und Virtuagym nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
+- [Zen Planner](https://omnoss.de/vergleich/zen-planner.html): Omnoss und Zen Planner nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
+
+## Wechsel
+
+- [Wechsel zu Omnoss](https://omnoss.de/wechsel.html): So wechselt eine Kampfsportschule zu Omnoss: Daten übernehmen, Parallelbetrieb, SEPA-Mandate weiterführen, Start mit Scanner und Mattencockpit.
+
+## Unternehmen
+
+- [Startseite](https://omnoss.de/): Mitglieder, Beiträge, Verträge und Matte in einem System. Im Echtbetrieb seit April 2026 an 6 Standorten mit rund 3.000 Mitgliedern.
+- [Impressum](https://omnoss.de/impressum.html): Impressum der Omnoss GmbH, Bergkirchen.
+- [Kontakt](https://omnoss.de/kontakt.html): Schreib uns: per E-Mail an info@omnoss.de oder über das Formular. Wir antworten in 24 Stunden, auch auf Anfragen für einen Demo-Termin.
+- [Über](https://omnoss.de/ueber.html): Omnoss entsteht, wo Kampfsport-Betrieb und Datenstrategie dasselbe Problem haben. Herkunft, Name und Gründer.
+
+## Optional
+
+- Live – Owner-Bereich – Mitgliederliste mit Filtern: Alle Mitglieder mit Gurt, Status (aktiv/inaktiv/Probe) und Disziplin in einer Liste, getrennt nach Erwachsenen und Kids.
+- Live – Owner-Bereich – Mitglied anlegen mit App-Zugang: Ein neues Mitglied bekommt automatisch Konto und Willkommensmail, ohne Handarbeit im Büro.
+- Live – Owner-Bereich – Mitglieder-Detail: Gürtel und Fortschritt: Gurtstand je Disziplin, Einheiten seit der letzten Graduierung und Graduieren mit einem Tipp.
+- Live – Owner-Bereich – Familienkonten: Ein Elternkonto verwaltet mehrere Kinder, inklusive Profilwechsel in der App.
+- Live – Owner-Bereich – At-Risk-Radar: Zeigt, wer auffällig lange nicht da war, bevor er kündigt.
+- Live – Owner-Bereich – Statistik-Übersicht: Aktive, neue, Probe- und inaktive Mitglieder auf einen Blick.
+- Live – Owner-Bereich – Kurs-Auslastung: Auslastung je Kurs und Termin, Grundlage für die Stundenplanung.
+- Live – Owner-Bereich – Mitglieder-Bindung: Stammquote je Kurs, Wiederkehr neuer Mitglieder, Kohorten.
+- Live – Owner-Bereich – Graduierungs-Vorschläge: Die App schlägt vor, wer reif ist („bereit“, „fast bereit“, „beobachten“).
+- Live – Owner-Bereich – Mitglieder-Import (CSV/Excel): Bestand aus dem Altsystem übernehmen, mit Tarif-Zuordnung und Sicherheitsgrenzen.
+- Live – Trainer & Mattencockpit – Trainer-Kursplan: Tages- und Wochenansicht aller Einheiten mit Anmeldezahlen.
+- Live – Trainer & Mattencockpit – Techniken je Einheit planen: Der Trainer legt vor dem Kurs fest, was unterrichtet wird.
+- Live – Trainer & Mattencockpit – Technik-Katalog: Techniken nach Kategorie, Gi/No-Gi, mit Positionen verknüpft.
+- Live – Trainer & Mattencockpit – Wochen-Curriculum (Basis plus Gym-Gruppe): Fester Wochenplan für Kids, Minis und Krav Maga auf einer gemeinsamen Basis, je Gruppe anpassbar.
+- Live – Trainer & Mattencockpit – Kids-Stempelkarte: 8 Stempel bis zur Graduierung, getrennt von der Erwachsenen-Graduierung.
+- Live – Trainer & Mattencockpit – Mattencockpit: Kurs wählen, Parallelkurse: Tablet an der Matte zeigt die Kurse des Tages, Parallelkurse in geteilter Ansicht.
+- Live – Trainer & Mattencockpit – Mattencockpit: Anwesenheit abhaken: Check-in direkt an der Matte, mit Kennzeichen für Probe und Check-in-Sperre.
+- Live – Trainer & Mattencockpit – Mattencockpit: Trainingsplan auf der Matte: Geplante Techniken als Checkliste, als unterrichtet markieren.
+- Live – Trainer & Mattencockpit – Stunde abschließen mit Technikhistorie: Unterrichtete Techniken werden je anwesendem Mitglied gezählt.
+- Live – Trainer & Mattencockpit – Automatische Gürtel-Zähler: Jeder Check-in zählt auf den Fortschritt zur nächsten Graduierung.
+- Live – Mitglieder-App – Familienprofile: Eltern wechseln zwischen den Profilen ihrer Kinder.
+- Live – Mitglieder-App – QR-Check-in-Code: Eigener Code für den Scanner am Eingang, auch als Homescreen-Shortcut.
+- Live – Mitglieder-App – Home: Nächster Kurs, Kontingent, Gürtel, Stempelkarte, geplante Techniken, News.
+- Live – Mitglieder-App – Kurs buchen: Buchen und abmelden mit Rückgängig, Warteliste, Serienbuchung.
+- Live – Mitglieder-App – Fortschritt: Eigener Weg, Kennzahlen, Signatur-Technik, 12-Wochen-Heatmap.
+- Live – Mitglieder-App – Trophäen: Automatisch vergebene Auszeichnungen mit Fortschritt.
+- Live – Mitglieder-App – Technik-Katalog und Technik wünschen: Mitglieder lernen nach und wünschen sich Inhalte.
+- Live – Mitglieder-App – Erfolg teilen: Bild zu Gurt oder Streifen im Gym-Branding, teilbar in sozialen Medien.
+- Live – Technik-KI – Technik-Vorschläge je Einheit (Planungsassistent): Vorschläge für die nächste Stunde aus Anmeldungen, Wünschen und dem, was im Block schon gezeigt wurde, mit Begründung.
+- Live – Finanzen – Zahlerverwaltung: Zahler mit Status-Ampel, Risiko und Offenstand, getrennt vom Mitglied (Eltern zahlen für Kinder).
+- Live – Finanzen – SEPA-Mandat am Tresen: Mandat direkt bei der Anmeldung erfassen.
+- Live – Finanzen – IBAN verschlüsselt, Anzeige nur mit Protokoll: IBAN liegt verschlüsselt (KMS), volle Anzeige 30 s mit erneuter Anmeldung und Protokoll.
+- Live – Finanzen – Mandatsimport aus Magicline: Bestehende Mandate beim Umstieg übernehmen.
+- Live – Finanzen – Zahlpläne (Beiträge): Wöchentliche, monatliche und andere Beiträge mit Vorschau der Zeiträume.
+- Live – Finanzen – Pause, Kündigung, Tarifwechsel am Plan: Vorgänge zum Stichtag, ordentlich oder als Sonderkündigung.
+- Live – Finanzen – Lastschriftlauf vorbereiten und prüfen: Lauf je Einzugstag, Posten mit Grund ausschließbar.
+- Live – Finanzen – SEPA-Datei (pain.008) erzeugen und abrufen: Bankfertige Datei, Abruf per Link oder QR-Code, jeder Abruf protokolliert.
+- Live – Finanzen – Vorabankündigung automatisch: Zahler werden vor dem Einzug per Mail informiert.
+- Live – Finanzen – Kontoauszug-Import mit Zuordnung: camt, MT940 oder CSV hochladen, Zahlungen werden automatisch zugeordnet.
+- Live – Finanzen – Rücklastschriften automatisch: Rückläufer werden nach Grund-Code verarbeitet, inklusive Wiedereinzug.
+- Live – Finanzen – Mahnwesen mit Stufen: Täglicher Mahnlauf mit Fristen, Gebühren und eigenen Texten; Gebühren erst nach Owner-Bestätigung.
+- Live – Finanzen – Check-in-Sperre ab Mahnstufe: Warnung oder Sperre am Eingang, Ausnahme durch das Büro möglich.
+- Live – Finanzen – Büroaufgaben aus dem Abgleich: Nachts wird Mitgliedsstatus gegen Zahlplan geprüft, Abweichungen werden Aufgaben.
+- Live – Finanzen – Vertragsvorlagen, versioniert: Eigene Vertragstexte des Gyms, Aktivierung erst ohne Platzhalter.
+- Live – Finanzen – Vertragsabschluss am Tresen (Papier): Vertrag, Zahler, Mandat und Zahlplan in einem Ablauf.
+- Live – Finanzen – Vertragsabschluss am Tablet mit Unterschrift: Mitglied unterschreibt am Gerät, Kopie per Mail.
+- Live – Leadmanagement – Lead-Erfassung mit Pipeline und Erinnerungen: Interessenten durch Anfrage → Probetraining → Angebot → Mitglied führen, mit Erinnerungen zum Nachfassen.
+- Live – Leadmanagement – Website-Formular und Probetraining als Lead: Anfragen landen automatisch als Lead im Owner-Bereich.
+- Live – Leadmanagement – Übergang Lead → Mitglied in einem Zug: Vertrag anlegen, SEPA-Mandat erfassen und Mitglieder-App freischalten in einem Ablauf.
+- Live – Leadmanagement – Auswertung Anfragen pro Kanal und Abschlussquote: Zeigt, welcher Kanal Mitglieder bringt.
+- Live – Kurse & Stundenplan – Kursvorlagen mit automatischen Terminen: Kurs einmal anlegen, die Termine entstehen täglich automatisch.
+- Live – Kurse & Stundenplan – Kontingente und Flatrates: Buchungsrechte je Tarif (Wochen-, Monatskontingent, unbegrenzt).
+- Live – Kurse & Stundenplan – QR-Selbst-Check-in am Tablet: Mitglieder checken am Eingang selbst ein, der laufende Kurs wird automatisch gewählt.
+- Live – Kurse & Stundenplan – Check-in mit Kontingent-Prüfung: Überzogene Kontingente landen als Anfrage beim Büro statt an der Tür.
+- Live – Kommunikation – News: Nachrichten mit Bild, Wichtig-Kennzeichen und Zielgruppe.
+- Live – Kommunikation – Events: Events mit Zusatzfeldern, Teilnehmergrenze, Check-in und CSV-Export.
+- Live – Zeiterfassung/Personal – Team-Liste und Personal ernennen: Personal aus bestehenden Konten ernennen, ohne Zweitkonto.
+- Live – Zeiterfassung/Personal – Rollenvorlagen und Einzelrechte: 7 Vorlagen (Inhaber, Head Coach, Coach, Kids Coach, Assistent, Berater, Büro), feinere Rechte je Person.
+- Live – Multi-Standort – Mehrere Gyms je Person, Gym-Wechsel: Ein Konto für alle Standorte, Wechsel in der Kopfzeile.
+- Live – Multi-Standort – Gasttraining in Partnerschulen: Erwachsene buchen Kurse anderer Standorte der Gruppe, mit Gastrecht je Woche.
+- Live – Multi-Standort – Gemeinsames Curriculum über Gruppen: Gyms teilen Curriculum-Teile (z. B. Kids und Minis), ohne alles zu teilen.
+- Live – Sonstiges – Daten in der EU: Datenbank in Berlin, Serverfunktionen in Belgien.
+- In Entwicklung – Kanban-Board für das Team: Aufgaben des Teams auf einem Board – wer macht was bis wann.
+- In Entwicklung – Kontingent-Erweiterung: Mehr trainieren, als der Tarif vorsieht – Zusatzeinheiten buchen.
+- Geplant – Curriculum-Baukasten, Curriculum-Bilanz, Mitgliederkarte, Schüler der Stunde: Ausbau des Curriculum-Studios.
+- Geplant – Beitragsstand und Mahnungen anzeigen: Mitglied sieht offene Beträge, Antworten landen als Büroaufgabe.
+- Geplant – Onlineshop für Mitglieder: Verkauf an Mitglieder in der App.
+- Geplant – Planungsassistent 2.0: Umbau des Planers.
+- Geplant – Tarifkatalog: Tarife zentral pflegen.
+- Geplant – Fernabschluss, Preisanpassung, Vorauszahlung, Karten ohne Laufzeit, IBAN per Foto: Ausbau des Vertragswesens.
+- Geplant – Finanz-Dashboard: Finanzkennzahlen für Owner.
+- Geplant – DATEV-Export: Übergabe an die Buchhaltung.
+- Geplant – Inkasso-Export: Übergabe offener Forderungen.
+- In Entwicklung – Buchhaltung und Bilanzen in der App: Buchhaltung direkt in Omnoss.
+- Geplant – Kasse am Tresen: Verkauf am Tresen; Umfang noch offen.
+- Geplant – Push-Nachrichten: Benachrichtigungen auf das Telefon der Mitglieder.
+- Geplant – Mail-Absender mit eigener Gym-Domain: Mails kommen von der Domain des Gyms.
+- In Entwicklung – Stundenbuchung für Mitarbeiter: Arbeitszeiten des Personals in der App erfassen.
+- Geplant – Zeiterfassungs-Regelwerk der Partner-Gyms: Arbeitszeitregeln der Gyms in der App abbilden.
+- Geplant – Inventar und Bestandsverwaltung: Bestand im Gym führen.
+- Geplant – Integrationen Spotify, Stripe/GoCardless: Anbindung an Spotify sowie Stripe/GoCardless.
+- Geplant – Office-Cockpit (Desktop) neu: Desktop-Oberfläche für das Büro auf Basis der App-Funktionen.
+- Geplant – Design 2.0: Überarbeitung der Oberfläche.
+- Geplant – Umbenennung der App in Omnoss: Store-Name und Icon wechseln im Dezember.
+- Geplant – Österreich: Geltungsbereich v1 Deutschland, Österreich später.

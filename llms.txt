@@ -59,6 +59,7 @@ Status je Funktion: Live = verfügbar, In Entwicklung = in Arbeit, Geplant = auf
 - [Startseite](https://omnoss.de/): Mitglieder, Beiträge, Verträge und Matte in einem System. Im Echtbetrieb seit April 2026 an 6 Standorten mit rund 3.000 Mitgliedern.
 - [Impressum](https://omnoss.de/impressum.html): Impressum der Omnoss GmbH, Bergkirchen.
 - [Kontakt](https://omnoss.de/kontakt.html): Schreib uns: per E-Mail an info@omnoss.de oder über das Formular. Wir antworten in 24 Stunden, auch auf Anfragen für einen Demo-Termin.
+- [Konto löschen](https://omnoss.de/konto-loeschen.html): So beantragen Sie die Löschung Ihres Kontos in der Omnoss-App: Antrag in der App oder per E-Mail, Rolle des Gyms, Frist und Aufbewahrungspflichten.
 - [Über](https://omnoss.de/ueber.html): Omnoss entsteht, wo Kampfsport-Betrieb und Datenstrategie dasselbe Problem haben. Herkunft, Name und Gründer.
 
 ## Optional
@@ -107,8 +108,6 @@ Status je Funktion: Live = verfügbar, In Entwicklung = in Arbeit, Geplant = auf
 - Live – Finanzen – Check-in-Sperre ab Mahnstufe: Warnung oder Sperre am Eingang, Ausnahme durch das Büro möglich.
 - Live – Finanzen – Büroaufgaben aus dem Abgleich: Nachts wird Mitgliedsstatus gegen Zahlplan geprüft, Abweichungen werden Aufgaben.
 - Live – Finanzen – Vertragsvorlagen, versioniert: Eigene Vertragstexte des Gyms, Aktivierung erst ohne Platzhalter.
-- Live – Finanzen – Vertragsabschluss am Tresen (Papier): Vertrag, Zahler, Mandat und Zahlplan in einem Ablauf.
-- Live – Finanzen – Vertragsabschluss am Tablet mit Unterschrift: Mitglied unterschreibt am Gerät, Kopie per Mail.
 - Live – Leadmanagement – Lead-Erfassung mit Pipeline und Erinnerungen: Interessenten durch Anfrage → Probetraining → Angebot → Mitglied führen, mit Erinnerungen zum Nachfassen.
 - Live – Leadmanagement – Website-Formular und Probetraining als Lead: Anfragen landen automatisch als Lead im Owner-Bereich.
 - Live – Leadmanagement – Übergang Lead → Mitglied in einem Zug: Vertrag anlegen, SEPA-Mandat erfassen und Mitglieder-App freischalten in einem Ablauf.
@@ -131,6 +130,8 @@ Status je Funktion: Live = verfügbar, In Entwicklung = in Arbeit, Geplant = auf
 - Geplant – Beitragsstand und Mahnungen anzeigen: Mitglied sieht offene Beträge, Antworten landen als Büroaufgabe.
 - Geplant – Onlineshop für Mitglieder: Verkauf an Mitglieder in der App.
 - Geplant – Planungsassistent 2.0: Umbau des Planers.
+- In Entwicklung – Vertragsabschluss am Tresen (Papier): Vertrag, Zahler, Mandat und Zahlplan in einem Ablauf.
+- In Entwicklung – Vertragsabschluss am Tablet mit Unterschrift: Mitglied unterschreibt am Gerät, Kopie per Mail.
 - Geplant – Tarifkatalog: Tarife zentral pflegen.
 - Geplant – Fernabschluss, Preisanpassung, Vorauszahlung, Karten ohne Laufzeit, IBAN per Foto: Ausbau des Vertragswesens.
 - Geplant – Finanz-Dashboard: Finanzkennzahlen für Owner.

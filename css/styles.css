@@ -385,7 +385,7 @@ h2 .stufe, h3 .stufe { margin-left: 0.4em; }
 .vergleich .nummer { padding-top: 0; margin-right: 6px; }
 .tabelle-rahmen--zwei .vergleich td { min-width: 240px; width: 40%; }
 .wert { display: block; font-weight: 600; }
-.wert--keine-angabe { font-weight: 400; color: var(--text-sek-dunkel); }
+.wert--offen { font-weight: 400; color: var(--text-sek-dunkel); }
 .wert--fakt { font-weight: 500; }
 .zelle__text { display: block; margin-top: 4px; font-size: 13px; color: var(--text-sek-dunkel); }
 .quellen { margin: 0; padding-left: 20px; list-style: decimal; font-size: 13px; line-height: 1.6; color: var(--text-sek-dunkel); }

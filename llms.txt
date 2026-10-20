@@ -39,16 +39,16 @@ Status je Funktion: Live = verfügbar, In Entwicklung = in Arbeit, Geplant = auf
 ## Vergleich
 
 - [Vergleich](https://omnoss.de/vergleich/): Zehn Kriterien für Software in Kampfsportschulen und ein Vergleich von Omnoss mit zehn Anbietern – mit Quelle und Datum, ohne Wertung.
-- [Eversports Manager](https://omnoss.de/vergleich/eversports.html): Omnoss und Eversports Manager nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
-- [FightDesk](https://omnoss.de/vergleich/fightdesk.html): Omnoss und FightDesk nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
-- [Gymdesk](https://omnoss.de/vergleich/gymdesk.html): Omnoss und Gymdesk nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
-- [Kicksite](https://omnoss.de/vergleich/kicksite.html): Omnoss und Kicksite nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
-- [Magicline](https://omnoss.de/vergleich/magicline.html): Omnoss und Magicline nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
-- [MATOOL](https://omnoss.de/vergleich/matool.html): Omnoss und MATOOL nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
-- [Octiv](https://omnoss.de/vergleich/octiv.html): Omnoss und Octiv nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
-- [Omoplata](https://omnoss.de/vergleich/omoplata.html): Omnoss und Omoplata nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
-- [Virtuagym](https://omnoss.de/vergleich/virtuagym.html): Omnoss und Virtuagym nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
-- [Zen Planner](https://omnoss.de/vergleich/zen-planner.html): Omnoss und Zen Planner nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 13.10.2026.
+- [Eversports Manager](https://omnoss.de/vergleich/eversports.html): Omnoss und Eversports Manager nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 20.10.2026.
+- [FightDesk](https://omnoss.de/vergleich/fightdesk.html): Omnoss und FightDesk nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 20.10.2026.
+- [Gymdesk](https://omnoss.de/vergleich/gymdesk.html): Omnoss und Gymdesk nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 20.10.2026.
+- [Kicksite](https://omnoss.de/vergleich/kicksite.html): Omnoss und Kicksite nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 20.10.2026.
+- [Magicline](https://omnoss.de/vergleich/magicline.html): Omnoss und Magicline nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 20.10.2026.
+- [MATOOL](https://omnoss.de/vergleich/matool.html): Omnoss und MATOOL nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 20.10.2026.
+- [Octiv](https://omnoss.de/vergleich/octiv.html): Omnoss und Octiv nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 20.10.2026.
+- [Omoplata](https://omnoss.de/vergleich/omoplata.html): Omnoss und Omoplata nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 20.10.2026.
+- [Virtuagym](https://omnoss.de/vergleich/virtuagym.html): Omnoss und Virtuagym nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 20.10.2026.
+- [Zen Planner](https://omnoss.de/vergleich/zen-planner.html): Omnoss und Zen Planner nach zehn Kriterien für Kampfsportschulen: Gürtel, Technik, Matte, App, Lastschrift, Preis. Stand 20.10.2026.
 
 ## Wechsel
 

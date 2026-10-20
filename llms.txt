@@ -101,7 +101,6 @@ Status je Funktion: Live = verfügbar, In Entwicklung = in Arbeit, Geplant = auf
 - Live – Finanzen – Pause, Kündigung, Tarifwechsel am Plan: Vorgänge zum Stichtag, ordentlich oder als Sonderkündigung.
 - Live – Finanzen – Lastschriftlauf vorbereiten und prüfen: Lauf je Einzugstag, Posten mit Grund ausschließbar.
 - Live – Finanzen – SEPA-Datei (pain.008) erzeugen und abrufen: Bankfertige Datei, Abruf per Link oder QR-Code, jeder Abruf protokolliert.
-- Live – Finanzen – Vorabankündigung automatisch: Zahler werden vor dem Einzug per Mail informiert.
 - Live – Finanzen – Kontoauszug-Import mit Zuordnung: camt, MT940 oder CSV hochladen, Zahlungen werden automatisch zugeordnet.
 - Live – Finanzen – Rücklastschriften automatisch: Rückläufer werden nach Grund-Code verarbeitet, inklusive Wiedereinzug.
 - Live – Finanzen – Mahnwesen mit Stufen: Täglicher Mahnlauf mit Fristen, Gebühren und eigenen Texten; Gebühren erst nach Owner-Bestätigung.

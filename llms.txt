@@ -17,20 +17,20 @@ Status je Funktion: Live = verfügbar, In Entwicklung = in Arbeit, Geplant = auf
 
 ## Produkt
 
-- [Produkt](https://omnoss.de/produkt/): Omnoss ist ein Datenmodell mit sechs Oberflächen: Owner-Bereich, Matte, Mitglieder-App, Technik-Planer, Finanzen & Verträge und Leads.
-- [Finanzen & Verträge](https://omnoss.de/produkt/finanzen.html): SEPA-Lastschrift mit eigener Gläubiger-ID, Verträge mit digitaler Unterschrift, Mahnwesen und Kontoauszug-Import – direkt im Gym.
+- [Produkt](https://omnoss.de/produkt/): Sechs Bereiche, eine Datenbasis: Owner-Bereich, Matte, Mitglieder-App, Technik-Planer, Finanzen & Verträge und Leads.
+- [Finanzen & Verträge](https://omnoss.de/produkt/finanzen.html): SEPA-Lastschrift mit eigener Gläubiger-ID, Rücklastschriften automatisch, Mahnwesen und Kontoauszug-Import – direkt im Gym.
 - [Leads](https://omnoss.de/produkt/leads.html): Anfragen von Website und Probetraining als Lead, Pipeline bis zum Vertrag und Auswertung je Kanal – ohne Zettel, in einem System.
 - [Matte](https://omnoss.de/produkt/matte.html): Mattencockpit auf dem Tablet, Trainer-App in der Tasche: Anmeldungen, Check-in, Gürtel und Probetrainings für jeden Kurs aus denselben Daten.
 - [Mitglieder-App](https://omnoss.de/produkt/mitglieder-app.html): Kurse buchen, Gürtel, Streak und Techniken sehen: die Mitglieder-App von Omnoss macht das Gym zur täglichen Gewohnheit.
-- [Owner-Bereich](https://omnoss.de/produkt/owner.html): Stammquote je Kurs, At-Risk-Radar und alle Daten je Mitglied an einer Stelle: der Owner-Bereich zeigt, was im Gym gerade passiert.
+- [Owner-Bereich](https://omnoss.de/produkt/owner.html): Stammquote je Kurs (wer regelmäßig kommt), At-Risk-Radar (wer lange fehlt), alle Daten je Mitglied: der Owner-Bereich zeigt, was im Gym gerade passiert.
 - [Technik-Planer](https://omnoss.de/produkt/technik-planer.html): Technik-Vorschläge für den nächsten Kurs aus Anmeldungen und Wünschen der Mitglieder. Der Trainer übernimmt, ergänzt oder verwirft.
 
 ## Für wen
 
-- [Für wen](https://omnoss.de/fuer/): Omnoss ist für Kampfsportschulen gebaut, in denen Technik zählt: BJJ, MMA, Kickboxen, Muay Thai und Boxen.
-- [BJJ](https://omnoss.de/fuer/bjj.html): Für Brazilian Jiu-Jitsu: Gürtel und Streifen am Mitglied, Gi und No-Gi im Curriculum, Familienkonten für Kids – in einem System.
+- [Für wen](https://omnoss.de/fuer/): Omnoss ist für Kampfsportschulen gebaut, in denen Technik zählt: BJJ, MMA, Kickboxen, Muay Thai, Boxen und Krav Maga – weitere Disziplinen auf Anfrage.
+- [BJJ](https://omnoss.de/fuer/bjj.html): Für Brazilian Jiu-Jitsu: Gürtel und Streifen im Mitgliederprofil, Gi und No-Gi im Curriculum, Familienkonten für Kids – in einem System.
 - [Kickboxen, Muay Thai & Boxen](https://omnoss.de/fuer/kickboxen-muay-thai.html): Für Kickbox-, Muay-Thai- und Boxschulen: Kursplan mit Warteliste, QR-Check-in am Eingang und At-Risk-Radar für alle, die wegbleiben.
-- [MMA](https://omnoss.de/fuer/mma.html): Für MMA-Schulen: Disziplin am Mitglied, ein Check-in für alle Kurse, vom Probetraining bis zum Vertrag in einem System.
+- [MMA](https://omnoss.de/fuer/mma.html): Für MMA-Schulen: Disziplinen im Mitgliederprofil, ein Check-in für alle Kurse, vom Probetraining bis zum Vertrag in einem System.
 
 ## Preise
 
@@ -71,7 +71,7 @@ Status je Funktion: Live = verfügbar, In Entwicklung = in Arbeit, Geplant = auf
 - Live – Owner-Bereich – At-Risk-Radar: Zeigt, wer auffällig lange nicht da war, bevor er kündigt.
 - Live – Owner-Bereich – Statistik-Übersicht: Aktive, neue, Probe- und inaktive Mitglieder auf einen Blick.
 - Live – Owner-Bereich – Kurs-Auslastung: Auslastung je Kurs und Termin, Grundlage für die Stundenplanung.
-- Live – Owner-Bereich – Mitglieder-Bindung: Stammquote je Kurs, Wiederkehr neuer Mitglieder, Kohorten.
+- Live – Owner-Bereich – Mitglieder-Bindung: Stammquote je Kurs (Anteil der Mitglieder, die regelmäßig kommen), Wiederkehr neuer Mitglieder, Kohorten.
 - Live – Owner-Bereich – Graduierungs-Vorschläge: Die App schlägt vor, wer reif ist („bereit“, „fast bereit“, „beobachten“).
 - Live – Owner-Bereich – Mitglieder-Import (CSV/Excel): Bestand aus dem Altsystem übernehmen, mit Tarif-Zuordnung und Sicherheitsgrenzen.
 - Live – Trainer & Mattencockpit – Trainer-Kursplan: Tages- und Wochenansicht aller Einheiten mit Anmeldezahlen.
@@ -92,7 +92,7 @@ Status je Funktion: Live = verfügbar, In Entwicklung = in Arbeit, Geplant = auf
 - Live – Mitglieder-App – Trophäen: Automatisch vergebene Auszeichnungen mit Fortschritt.
 - Live – Mitglieder-App – Technik-Katalog und Technik wünschen: Mitglieder lernen nach und wünschen sich Inhalte.
 - Live – Mitglieder-App – Erfolg teilen: Bild zu Gurt oder Streifen im Gym-Branding, teilbar in sozialen Medien.
-- Live – Technik-KI – Technik-Vorschläge je Einheit (Planungsassistent): Vorschläge für die nächste Stunde aus Anmeldungen, Wünschen und dem, was im Block schon gezeigt wurde, mit Begründung.
+- Live – Technik-KI – Technik-Vorschläge je Einheit (Planungsassistent): Vorschläge für die nächste Stunde aus Anmeldungen, Wünschen und dem, was im aktuellen Themenblock schon gezeigt wurde, mit Begründung.
 - Live – Finanzen – Zahlerverwaltung: Zahler mit Status-Ampel, Risiko und Offenstand, getrennt vom Mitglied (Eltern zahlen für Kinder).
 - Live – Finanzen – SEPA-Mandat am Tresen: Mandat direkt bei der Anmeldung erfassen.
 - Live – Finanzen – IBAN verschlüsselt, Anzeige nur mit Protokoll: IBAN liegt verschlüsselt (KMS), volle Anzeige 30 s mit erneuter Anmeldung und Protokoll.
@@ -101,7 +101,7 @@ Status je Funktion: Live = verfügbar, In Entwicklung = in Arbeit, Geplant = auf
 - Live – Finanzen – Pause, Kündigung, Tarifwechsel am Plan: Vorgänge zum Stichtag, ordentlich oder als Sonderkündigung.
 - Live – Finanzen – Lastschriftlauf vorbereiten und prüfen: Lauf je Einzugstag, Posten mit Grund ausschließbar.
 - Live – Finanzen – SEPA-Datei (pain.008) erzeugen und abrufen: Bankfertige Datei, Abruf per Link oder QR-Code, jeder Abruf protokolliert.
-- Live – Finanzen – Kontoauszug-Import mit Zuordnung: camt, MT940 oder CSV hochladen, Zahlungen werden automatisch zugeordnet.
+- Live – Finanzen – Kontoauszug-Import mit Zuordnung: Kontoauszug im camt-Format hochladen, Zahlungen werden automatisch zugeordnet.
 - Live – Finanzen – Rücklastschriften automatisch: Rückläufer werden nach Grund-Code verarbeitet, inklusive Wiedereinzug.
 - Live – Finanzen – Mahnwesen mit Stufen: Täglicher Mahnlauf mit Fristen, Gebühren und eigenen Texten; Gebühren erst nach Owner-Bestätigung.
 - Live – Finanzen – Check-in-Sperre ab Mahnstufe: Warnung oder Sperre am Eingang, Ausnahme durch das Büro möglich.

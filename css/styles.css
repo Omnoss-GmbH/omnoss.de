@@ -339,6 +339,16 @@ h2 .stufe, h3 .stufe { margin-left: 0.4em; }
 .feld input:focus-visible, .feld select:focus-visible { outline: 2px solid var(--tuerkis-hell); outline-offset: 1px; border-color: var(--tuerkis-hell); }
 .anfrage .knopf { margin-top: 8px; }
 .anfrage__hinweis { margin: 0; font-size: 13px; line-height: 1.5; color: var(--text-sek-hell); }
+.anfrage .knopf:disabled { opacity: 0.7; cursor: progress; }
+/* Honeypot: für Menschen unsichtbar, für Screenreader ausgeblendet, nicht per display:none (das überspringen manche Bots) */
+.anfrage__falle { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.anfrage { position: relative; }
+.anfrage__fehler { margin: 0; font-size: 13px; line-height: 1.5; color: var(--papier); border-left: 3px solid var(--warnung); padding: 8px 0 8px 12px; }
+.anfrage__fehler[hidden] { display: none; }
+.anfrage--danke { border: 1px solid var(--tuerkis-hell); }
+.anfrage--danke .anfrage__titel { color: var(--tuerkis-hell); }
+.anfrage--danke:focus { outline: none; }
+.anfrage--danke:focus-visible { outline: 2px solid var(--tuerkis-hell); outline-offset: 3px; }
 
 /* ---------- Fuß */
 .fuss { background: var(--tiefschwarz); color: var(--text-sek-hell); padding: 72px 0 40px; }

@@ -140,14 +140,18 @@
    <p class="text">BJJ, MMA, Kickboxen, Muay Thai, Boxen. Drei Stufen – Basic, Premium, All-in – und ein Preis, der mit dem Gym wächst: kleine Schulen zahlen wenig, große zahlen für das, was sie nutzen. Kein Grundpreis, der Anfänger bestraft.</p>
   </div>
   <div class="s5">
-   <form id="anfrage" class="anfrage" action="#" method="post" data-mail="info@omnoss.de">
+   <form id="anfrage" class="anfrage" action="#" method="post" data-endpoint="https://europe-west1-bjj-gym-app.cloudfunctions.net/websiteAnfrage" data-mail="info@omnoss.de">
  <h3 class="anfrage__titel">Angebot in 24 Stunden</h3>
- <label class="feld">Gym<input type="text" name="gym" autocomplete="organization" placeholder="Name deines Gyms"></label>
- <label class="feld">Mitglieder (ungefähr)<input type="text" name="mitglieder" inputmode="numeric" placeholder="z. B. 180"></label>
+ <label class="feld">Gym<input type="text" name="gym" autocomplete="organization" required maxlength="120" placeholder="Name deines Gyms"></label>
+ <label class="feld">Ansprechperson<input type="text" name="name" autocomplete="name" required maxlength="120" placeholder="Vor- und Nachname"></label>
+ <label class="feld">E-Mail<input type="email" name="email" autocomplete="email" required maxlength="200" placeholder="du@dein-gym.de"></label>
+ <label class="feld">Telefon (optional)<input type="tel" name="telefon" autocomplete="tel" maxlength="40" placeholder="z. B. 0171 2345678"></label>
+ <label class="feld">Mitglieder (ungefähr)<input type="text" name="mitglieder" inputmode="numeric" maxlength="20" placeholder="z. B. 180"></label>
  <label class="feld">Ausbaustufe<select name="stufe"><option value="basic">Basic</option><option value="premium">Premium</option><option value="all-in">All-in</option><option value="unklar">Noch unklar</option></select></label>
- <label class="feld">E-Mail<input type="email" name="email" autocomplete="email" required placeholder="du@dein-gym.de"></label>
+ <label class="anfrage__falle" aria-hidden="true">Website der Firma<input type="text" name="firma_website" tabindex="-1" autocomplete="off"></label>
  <button class="knopf" type="submit">Anfrage senden</button>
- <p class="anfrage__hinweis">Öffnet dein E-Mail-Programm. Oder direkt an <a href="mailto:info@omnoss.de">info@omnoss.de</a>.</p>
+ <p class="anfrage__hinweis">Mit dem Absenden verarbeiten wir deine Angaben zur Bearbeitung der Anfrage. Details: <a href="datenschutz.html">Datenschutz</a>.</p>
+ <p class="anfrage__fehler" role="alert" hidden>Das hat gerade nicht geklappt. Deine Angaben sind noch da. <a href="mailto:info@omnoss.de" data-fallback>Stattdessen per E-Mail senden</a></p>
 </form>
   </div>
  </div>
@@ -177,20 +181,60 @@
     nav.classList.toggle('offen', !offen);
   });
 })();
-// Anfrageformular: öffnet das E-Mail-Programm mit vorbereiteter Nachricht (kein Server, kein externer Request)
+// Anfrageformular: sendet an den Formular-Endpunkt (data-endpoint, einzige externe Adresse);
+// bei Fehler, Netzwerkproblem oder Timeout bleibt der Weg per E-Mail mit vorbefüllter Nachricht
 (function () {
   var form = document.getElementById('anfrage');
   if (!form) return;
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
+  var start = Date.now();
+  var knopf = form.querySelector('button[type="submit"]');
+  var knopfText = knopf.textContent;
+  var fehler = form.querySelector('.anfrage__fehler');
+  function wert(n) { return form.elements[n] ? form.elements[n].value.trim() : ''; }
+  function mailtoLink() {
     var f = form.elements;
     var stufe = f.stufe.options[f.stufe.selectedIndex].text;
-    var gym = f.gym.value.trim();
-    var text = 'Gym: ' + gym + '\nMitglieder (ungefähr): ' + f.mitglieder.value.trim() +
-      '\nAusbaustufe: ' + stufe + '\nE-Mail: ' + f.email.value.trim() + '\n';
-    window.location.href = 'mailto:' + form.getAttribute('data-mail') +
+    var gym = wert('gym');
+    var text = 'Gym: ' + gym + '\nAnsprechperson: ' + wert('name') + '\nE-Mail: ' + wert('email') +
+      '\nTelefon: ' + wert('telefon') + '\nMitglieder (ungefähr): ' + wert('mitglieder') +
+      '\nAusbaustufe: ' + stufe + '\n';
+    return 'mailto:' + form.getAttribute('data-mail') +
       '?subject=' + encodeURIComponent('Anfrage Omnoss – ' + (gym || 'ohne Gym-Namen')) +
       '&body=' + encodeURIComponent(text);
+  }
+  function zeigeFehler() {
+    fehler.querySelector('[data-fallback]').setAttribute('href', mailtoLink());
+    fehler.hidden = false;
+    knopf.disabled = false;
+    knopf.textContent = knopfText;
+  }
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (knopf.disabled) return;
+    fehler.hidden = true;
+    knopf.disabled = true;
+    knopf.textContent = 'Wird gesendet …';
+    var daten = { gym: wert('gym'), name: wert('name'), email: wert('email'), telefon: wert('telefon'),
+      mitglieder: wert('mitglieder'), stufe: form.elements.stufe.value,
+      firma_website: form.elements.firma_website.value, t: Date.now() - start, seite: location.pathname };
+    var abbruch = window.AbortController ? new AbortController() : null;
+    var uhr = setTimeout(function () { if (abbruch) abbruch.abort(); }, 10000);
+    fetch(form.getAttribute('data-endpoint'), {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(daten), signal: abbruch ? abbruch.signal : undefined
+    }).then(function (r) {
+      return r.json().catch(function () { return {}; }).then(function (j) { return r.ok && j.ok; });
+    }).then(function (ok) {
+      clearTimeout(uhr);
+      if (!ok) { zeigeFehler(); return; }
+      var danke = document.createElement('div');
+      danke.className = 'anfrage anfrage--danke';
+      danke.setAttribute('role', 'status');
+      danke.setAttribute('tabindex', '-1');
+      danke.innerHTML = '<p class="anfrage__titel">Danke. Deine Anfrage ist da – du hörst innerhalb von 24 Stunden von uns.</p>';
+      form.parentNode.replaceChild(danke, form);
+      danke.focus();
+    }).catch(function () { clearTimeout(uhr); zeigeFehler(); });
   });
 })();
 </script>

@@ -89,20 +89,60 @@
     nav.classList.toggle('offen', !offen);
   });
 })();
-// Anfrageformular: öffnet das E-Mail-Programm mit vorbereiteter Nachricht (kein Server, kein externer Request)
+// Anfrageformular: sendet an den Formular-Endpunkt (data-endpoint, einzige externe Adresse);
+// bei Fehler, Netzwerkproblem oder Timeout bleibt der Weg per E-Mail mit vorbefüllter Nachricht
 (function () {
   var form = document.getElementById('anfrage');
   if (!form) return;
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
+  var start = Date.now();
+  var knopf = form.querySelector('button[type="submit"]');
+  var knopfText = knopf.textContent;
+  var fehler = form.querySelector('.anfrage__fehler');
+  function wert(n) { return form.elements[n] ? form.elements[n].value.trim() : ''; }
+  function mailtoLink() {
     var f = form.elements;
     var stufe = f.stufe.options[f.stufe.selectedIndex].text;
-    var gym = f.gym.value.trim();
-    var text = 'Gym: ' + gym + '\nMitglieder (ungefähr): ' + f.mitglieder.value.trim() +
-      '\nAusbaustufe: ' + stufe + '\nE-Mail: ' + f.email.value.trim() + '\n';
-    window.location.href = 'mailto:' + form.getAttribute('data-mail') +
+    var gym = wert('gym');
+    var text = 'Gym: ' + gym + '\nAnsprechperson: ' + wert('name') + '\nE-Mail: ' + wert('email') +
+      '\nTelefon: ' + wert('telefon') + '\nMitglieder (ungefähr): ' + wert('mitglieder') +
+      '\nAusbaustufe: ' + stufe + '\n';
+    return 'mailto:' + form.getAttribute('data-mail') +
       '?subject=' + encodeURIComponent('Anfrage Omnoss – ' + (gym || 'ohne Gym-Namen')) +
       '&body=' + encodeURIComponent(text);
+  }
+  function zeigeFehler() {
+    fehler.querySelector('[data-fallback]').setAttribute('href', mailtoLink());
+    fehler.hidden = false;
+    knopf.disabled = false;
+    knopf.textContent = knopfText;
+  }
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (knopf.disabled) return;
+    fehler.hidden = true;
+    knopf.disabled = true;
+    knopf.textContent = 'Wird gesendet …';
+    var daten = { gym: wert('gym'), name: wert('name'), email: wert('email'), telefon: wert('telefon'),
+      mitglieder: wert('mitglieder'), stufe: form.elements.stufe.value,
+      firma_website: form.elements.firma_website.value, t: Date.now() - start, seite: location.pathname };
+    var abbruch = window.AbortController ? new AbortController() : null;
+    var uhr = setTimeout(function () { if (abbruch) abbruch.abort(); }, 10000);
+    fetch(form.getAttribute('data-endpoint'), {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(daten), signal: abbruch ? abbruch.signal : undefined
+    }).then(function (r) {
+      return r.json().catch(function () { return {}; }).then(function (j) { return r.ok && j.ok; });
+    }).then(function (ok) {
+      clearTimeout(uhr);
+      if (!ok) { zeigeFehler(); return; }
+      var danke = document.createElement('div');
+      danke.className = 'anfrage anfrage--danke';
+      danke.setAttribute('role', 'status');
+      danke.setAttribute('tabindex', '-1');
+      danke.innerHTML = '<p class="anfrage__titel">Danke. Deine Anfrage ist da – du hörst innerhalb von 24 Stunden von uns.</p>';
+      form.parentNode.replaceChild(danke, form);
+      danke.focus();
+    }).catch(function () { clearTimeout(uhr); zeigeFehler(); });
   });
 })();
 </script>
